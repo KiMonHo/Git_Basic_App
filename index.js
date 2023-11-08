@@ -8,6 +8,25 @@ function add(n1,n2, msg){
     }
     
     return n1 + n2;
+}
     
     
+function add(n1,n2, n3){
+    if(n3 !== undefined){
+        return n1 + n2 + n3;
+    }
+    else {
+        return n1+n2;        
+    }
+    
+}
+
+function minus(n1,n2) {
+    if(n1>n2){
+        return n1 - n2;
+    }
+    else {
+        return n2 - n1;
+    }
+
 }
